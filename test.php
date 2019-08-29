@@ -10,8 +10,14 @@
     <?php
         $name = adam;
 
-        echo "Hej världen.";
-        echo "$name hello";
+        echo "<h1>Hej världen.</h1>";
+        echo "<h2>$name hello</h2>";
+        $tal1 = 15;
+        $tal2 = "526";
+        $tal3 = true;
+        $tal4 = 213.56;
+
+        echo $tal1 + $tal3 + $tal4 + $tal2
     ?>
 </body>
 </html>
